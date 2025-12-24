@@ -3,21 +3,21 @@ package week7;
 public class Bankmain {
     public static void main(String[] args) {
 
-        bankaccount z1 = new bankaccount(34516, "Aryan", 1000000);
-        bankaccount z2 = new bankaccount(12345, "Muskan", 100000);
+        bankaccount s1 = new bankaccount(34516, "Bilip", 500000);
+        bankaccount s2 = new bankaccount(12345, "Girish", 10000);
 
-        System.out.println("Accnumber =" + z1.num + "\n" +
-                           "Name =" + z1.name + "\n" +
-                           "Balance =" + z1.balance);
-        z1.deposit(5000);
-        z1.withdraw(10000);
-        z1.disbalance();
+        System.out.println("Accnumber =" + s1.num + "\n" +
+                           "Name =" + s1.name + "\n" +
+                           "Balance =" + s1.balance);
+        s1.deposit(5000);
+        s1.withdraw(10000);
+        s1.disbalance();
 
-        System.out.println("Accnumber =" + z2.num + "\n" +
-                           "Name =" + z2.name + "\n" +
-                           "Balance =" + z2.balance);
-        z2.deposit(50000);
-        z2.withdraw(100000);
-        z2.disbalance();
+        System.out.println("Accnumber =" + s2.num + "\n" +
+                           "Name =" + s2.name + "\n" +
+                           "Balance =" + s2.balance);
+        s2.deposit(50000);
+        s2.withdraw(100000);
+        s2.disbalance();
     }
 }
